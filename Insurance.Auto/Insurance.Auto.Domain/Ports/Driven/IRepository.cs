@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Insurance.Auto.Domain.Models;
 
-namespace Insurance.Auto.Domain.Abstractions
+namespace Insurance.Auto.Domain.Ports.Driven
 {
     internal interface IRepository<T>
     {

@@ -16,7 +16,7 @@ namespace Insurance.Auto.Domain.Models
         public string NumeroSecuriteSocial { get; set; }
         public string Nom { get; set; }
         public string Prenom { get; set; }
-        public int DateDeNaissance { get; set; }
+        public DateTime DateDeNaissance { get; set; }
         public Sexe Sexe {  get; set; }
         public Adresse Adresse { get; set; }
     }

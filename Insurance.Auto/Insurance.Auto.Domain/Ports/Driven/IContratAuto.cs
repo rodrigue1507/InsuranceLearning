@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Insurance.Auto.Domain.Abstractions
+namespace Insurance.Auto.Domain.Ports.Driven
 {
-    internal interface IContratAuto: IRepository<ContratAuto>
+    internal interface IContratAuto : IRepository<ContratAuto>
     {
         Task AjouterSouscripteur(Souscripteur souscripteur);
         Task AjouterVoiture(Voiture voiture);

@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Insurance.Auto.Domain.Abstractions
+namespace Insurance.Auto.Domain.Ports.Driving
 {
-    internal interface IVoiture: IRepository<Voiture>
+    internal interface ICreerAutoService
     {
+        Task<Souscripteur> Create();
     }
 }

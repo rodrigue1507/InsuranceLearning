@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Insurance.Auto.Domain.Abstractions
+namespace Insurance.Auto.Domain.Ports.Driven
 {
-    internal interface ISouscripteur: IRepository<Souscripteur>
+    internal interface IVoiture : IRepository<Voiture>
     {
     }
 }

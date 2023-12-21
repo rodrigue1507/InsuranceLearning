@@ -5,10 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Insurance.Auto.Domain.Repositories
+namespace Insurance.Auto.Domain.Ports.Driven
 {
-    internal interface ICreerSouscripteur
+    internal interface ISouscripteur : IRepository<Souscripteur>
     {
-        Task<Souscripteur> Create();
     }
 }
