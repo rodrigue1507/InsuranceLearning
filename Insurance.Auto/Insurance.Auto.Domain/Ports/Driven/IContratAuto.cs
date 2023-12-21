@@ -9,7 +9,5 @@ namespace Insurance.Auto.Domain.Ports.Driven
 {
     internal interface IContratAuto : IRepository<ContratAuto>
     {
-        Task AjouterSouscripteur(Souscripteur souscripteur);
-        Task AjouterVoiture(Voiture voiture);
     }
 }
